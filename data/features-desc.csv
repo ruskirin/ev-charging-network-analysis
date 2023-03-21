@@ -1,0 +1,40 @@
+name,desc,null_values
+fuel_type_code,The type of alternative fuel the station provides. Fuel types are given as code values as described below:,0
+station_name,The name of the station.,2
+street_address,The street address of the station's location.,34
+intersection_directions,Brief additional information about how to locate the station.,51600
+city,The city of the station's location.,0
+state,The two character code for the U.S. state or Canadian province/territory of the station's location.,2
+zip,The ZIP code (postal code) of the station's location.,0
+station_phone,The phone number of the station.,3412
+status_code,"The current status of the station, given as code values as described below:",0
+groups_with_access_code,Deprecated: See the ,0
+access_days_time,Hours of operation for the station.,8436
+cards_accepted,A space-separated list of payment methods accepted. Payment methods are given as code values as described below:,50260
+ev_level1_evse_num,"For electric stations, the number of Level 1 EVSE ports.",53538
+ev_level2_evse_num,"For electric stations, the number of Level 2 EVSE ports.",6224
+ev_dc_fast_count,,47264
+ev_other_info,,54188
+ev_network,"For electric stations, the name of the EV charging network, if applicable.",2
+ev_network_web,"For electric stations, the EV charging network Web site, if applicable.",9121
+geocode_status,"A rating indicating the approximate accuracy of the latitude and longitude for the station's address, given as code values as described below:",0
+latitude,"The latitude of the station's address (see the ""Geocode Status"" field for details on the latitude's accuracy).",0
+longitude,"The longitude of the station's address (see the ""Geocode Status"" field for details on the longitude's accuracy).",0
+date_last_confirmed,The date the station's details were last confirmed.,308
+id,A unique identifier for this specific station.,0
+updated_at,"
+        The time the station's details were last updated (",0
+owner_type_code,The type of organization that owns the fueling infrastructure. Owner types are given as code values as described below:,36172
+federal_agency_id,,53187
+federal_agency_name,,53187
+open_date,"The date that the station began offering the fuel. Note that most propane (LPG) stations do not have open dates. Some open dates are approximate. For electric vehicle charging stations added to the Station Locator through automated data feeds from charging networks, this is either the date provided by the charging network or the date it appeared in the Station Locator if the charging network does not provide an open date. See the ",19
+ev_connector_types,"For electric stations, an array of strings identifying the connector types available at this station. Valid connector types are:",48
+country,The two character country code of the station's location.,0
+groups_with_access_code_(french),,0
+access_code,"A description of who is allowed to access the station, given as code values as described below:",0
+access_detail_code,"A description of other station access information, given as code values as described below:",49684
+federal_agency_code,,53187
+facility_type,"The type of facility at which the station is located, given as code values as described below:",37505
+ev_pricing,"For electric stations, information about whether and how much users must pay to use the EVSE port.",38924
+ev_on-site_renewable_source,,53877
+restricted_access,"For public stations, an indication of whether the station has restricted access, given as a boolean:",45133

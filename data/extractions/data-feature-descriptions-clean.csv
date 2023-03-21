@@ -1,0 +1,75 @@
+name,desc
+fuel_type_code,The type of alternative fuel the station provides. Fuel types are given as code values as described below:
+station_name,The name of the station.
+street_address,The street address of the station's location.
+intersection_directions,Brief additional information about how to locate the station.
+city,The city of the station's location.
+state,The two character code for the U.S. state or Canadian province/territory of the station's location.
+zip,The ZIP code (postal code) of the station's location.
+plus4,The plus-4 portion of the station's ZIP code (U.S. ZIP codes only).
+country,The two character country code of the station's location.
+station_phone,The phone number of the station.
+status_code,"The current status of the station, given as code values as described below:"
+expected_date,"For planned stations, the date the station is expected to open or start carrying alternative fuel. For temporarily unavailable stations, the date the station is expected to reopen. This date is estimated."
+access_code,"A description of who is allowed to access the station, given as code values as described below:"
+access_detail_code,"A description of other station access information, given as code values as described below:"
+groups_with_access_code,Deprecated: See the 
+access_days_time,Hours of operation for the station.
+cards_accepted,A space-separated list of payment methods accepted. Payment methods are given as code values as described below:
+owner_type_code,The type of organization that owns the fueling infrastructure. Owner types are given as code values as described below:
+federal_agency,"
+        If the station is owned by a federal agency, a record for the federal agency that owns this station. See "
+bd_blends,"For biodiesel stations, the level of biodiesel blends the station provides."
+e85_blender_pump,"For E85 stations, an indication of whether the station has a blender pump on site, given as a boolean:"
+e85_other_ethanol_blends,"For E85 stations, an array of strings identifying the range(s) of blends other than E85 available at the station, given as code values described below:"
+lpg_nozzle_types,"For LPG stations, an array of strings, identifying the type of nozzles available at the station, given as code values described below:"
+lpg_primary,"For propane stations, the type of station, given as a boolean:"
+ng_fill_type_code,Deprecated: See 
+ng_psi,Deprecated: See 
+ng_vehicle_class,"Deprecated: For CNG stations, see "
+rd_blends,"For renewable diesel stations, the level of renewable diesel blends the station provides."
+rd_blends_fr,"For renewable diesel stations, the level of renewable diesel blends the station provides, in French, if available."
+rd_blended_with_biodiesel,"For renewable diesel stations, whether the station provides renewable diesel blended with biodiesel, given as code values as described below:"
+rd_max_biodiesel_level,"For renewable diesel stations, the maximum biodiesel level if blended with biodiesel."
+cng_dispenser_num,"For CNG stations, the number of CNG dispensers installed."
+cng_fill_type_code,"For CNG stations, the type of dispensing capability available, given as code values as described below:"
+cng_psi,"For CNG stations, a space separated list of PSI pressures available."
+cng_renewable_source,"For CNG stations, the type of renewable energy used to generate CNG on-site, given as code values as described below:"
+cng_total_compression,"For CNG stations, the total compressor capacity per compressor, measured in standard cubic feet per minute (scfm)."
+cng_total_storage,"For CNG stations, the total storage capacity, measured in standard cubic feet (scf)."
+cng_vehicle_class,"For CNG stations, the maximum vehicle size that can physically access the fueling infrastructure, given as code values as described below:"
+lng_renewable_source,"For LNG stations, the type of renewable energy used to generate LNG on-site, given as code values as described below:"
+lng_vehicle_class,"For LNG stations, the maximum vehicle size that can physically access the fueling infrastructure, given as code values as described below:"
+ev_level1_evse_num,"For electric stations, the number of Level 1 EVSE ports."
+ev_level2_evse_num,"For electric stations, the number of Level 2 EVSE ports."
+ev_dc_fast_num,"For electric stations, the number of DC Fast EVSE ports."
+ev_other_evse,"
+        For electric stations, the number and type of additional EVSE ports, such as:
+
+        "
+ev_connector_types,"For electric stations, an array of strings identifying the connector types available at this station. Valid connector types are:"
+ev_network,"For electric stations, the name of the EV charging network, if applicable."
+ev_network_ids,"
+        For electric stations, if the station belongs to an EV charging network, a record describing the network-specific IDs for this station. See "
+ev_network_web,"For electric stations, the EV charging network Web site, if applicable."
+ev_pricing,"For electric stations, information about whether and how much users must pay to use the EVSE port."
+ev_renewable_source,"For electric stations, the type of renewable energy used to generate electricity on-site, given as code values as described below:"
+hy_is_retail,"For hydrogen stations, whether a station offers the retail sale of hydrogen by accepting payment at the point of sale, given as code values as described below:"
+hy_pressures,"For hydrogen stations, any array of strings identifying the pressures of the hydrogen available (in bar), given as code values as described below:"
+hy_standards,"For hydrogen stations, any array of strings identifying which SAE International fueling protocol standard(s) the infrastructure meets, given as code values as described below:"
+hy_status_link,"For hydrogen stations, a link to a website that provides up-to-date information about the current status of this hydrogen station."
+geocode_status,"A rating indicating the approximate accuracy of the latitude and longitude for the station's address, given as code values as described below:"
+latitude,"The latitude of the station's address (see the ""Geocode Status"" field for details on the latitude's accuracy)."
+longitude,"The longitude of the station's address (see the ""Geocode Status"" field for details on the longitude's accuracy)."
+open_date,"The date that the station began offering the fuel. Note that most propane (LPG) stations do not have open dates. Some open dates are approximate. For electric vehicle charging stations added to the Station Locator through automated data feeds from charging networks, this is either the date provided by the charging network or the date it appeared in the Station Locator if the charging network does not provide an open date. See the "
+date_last_confirmed,The date the station's details were last confirmed.
+updated_at,"
+        The time the station's details were last updated ("
+id,A unique identifier for this specific station.
+facility_type,"The type of facility at which the station is located, given as code values as described below:"
+intersection_directions_fr,"Brief additional information about how to locate the station, in French, if available."
+access_days_time_fr,"Hours of operation for the station, in French, if available."
+bd_blends_fr,"For biodiesel stations, the level of biodiesel blends the station provides, in French, if available."
+groups_with_access_code_fr,Deprecated: See the 
+ev_pricing_fr,"For electric stations, information about whether and how much users must pay to use the EVSE port, in French, if available."
+restricted_access,"For public stations, an indication of whether the station has restricted access, given as a boolean:"
